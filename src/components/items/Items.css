@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin: 20px;
+  width: 370px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #242226;
+}
+
+.itemsTitle {
+  font-family: 'Radio Canada',
+    sans-serif;
+  font-weight: 700 bolder;
+  color: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #28b5a9;
+  border: none;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #242226;
+}
+
+.addItems {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.itemsInput {
+  padding: 10px;
+  font-family: 'Radio Canada',
+    sans-serif;
+  border: none;
+  border-radius: 5px;
+  flex: 9;
+  line-height: 10px;
+  font-size: 18px;
+}
+
+.itemsButton {
+  padding: 10px;
+  flex: 3;
+  background-color: #28b5a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Radio Canada',
+    sans-serif;
+}
+
+.itemsList {
+  margin: 50px;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  min-height: 300px;
+  height: fit-content;
+}
+
+.item {
+  padding: 10px;
+  list-style-type: none;
+  line-height: 10px;
+  font-family: 'Radio Canada',
+    sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Radio Canada',
+    sans-serif;
+  padding-top: 20px;
+}
+
+.taskmanager-container {
+  display: flex;
+  flex: 12;
+  flex-direction: row;
+  justify-items: center;
+}
